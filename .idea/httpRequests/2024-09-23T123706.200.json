@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "id": 1,
+      "name": "Tibo",
+      "email": "tibooo@mail.com"
+    },
+    "product": "jsp"
+  },
+  {
+    "id": 2,
+    "user": {
+      "id": 1,
+      "name": "Tibo",
+      "email": "tibooo@mail.com"
+    },
+    "product": "oui"
+  }
+]

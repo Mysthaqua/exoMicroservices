@@ -1,0 +1,296 @@
+GET http://localhost:8081/api/command
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123919.200.json
+
+###
+
+DELETE http://localhost:8081/api/command/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:8081/api/command/2
+Content-Type: application/json
+Content-Length: 39
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "product": "ouiii"
+}
+
+<> 2024-09-23T123902.200.json
+
+###
+
+GET http://localhost:8081/api/command
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123744.200.json
+
+###
+
+PUT http://localhost:8081/api/command/2
+Content-Type: application/json
+Content-Length: 39
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "product": "ouiii"
+}
+
+<> 2024-09-23T123729.200.json
+
+###
+
+GET http://localhost:8081/api/command
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123706.200.json
+
+###
+
+POST http://localhost:8081/api/command
+Content-Type: application/json
+Content-Length: 37
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "product": "oui"
+}
+
+<> 2024-09-23T123659.201.json
+
+###
+
+POST http://localhost:8081/api/command
+Content-Type: application/json
+Content-Length: 37
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "product": "jsp"
+}
+
+<> 2024-09-23T123639.201.json
+
+###
+
+GET http://localhost:8080/api/user
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123618.200.json
+
+###
+
+DELETE http://localhost:8080/api/user/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080/api/user
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123557.200.json
+
+###
+
+PUT http://localhost:8080/api/user/1
+Content-Type: application/json
+Content-Length: 50
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Tibo",
+  "email": "tibooo@mail.com"
+}
+
+<> 2024-09-23T123549.200.json
+
+###
+
+GET http://localhost:8080/api/user/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123502.200.json
+
+###
+
+GET http://localhost:8080/api/user/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123458.200.json
+
+###
+
+GET http://localhost:8080/api/user
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123425.200.json
+
+###
+
+GET http://localhost:8080/api/user?name=Tibo2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123421.200.json
+
+###
+
+GET http://localhost:8080/api/user?name=Tibo
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123415.200.json
+
+###
+
+GET http://localhost:8080/api/user
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123357.200.json
+
+###
+
+GET http://localhost:8080/api/user?name=9wLffScg
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-23T123345.200.json
+
+###
+
+POST http://localhost:8080/api/user
+Content-Type: application/json
+Content-Length: 50
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Tibo2",
+  "email": "tibo2@mail.com"
+}
+
+<> 2024-09-23T123338.201.json
+
+###
+
+POST http://localhost:8080/api/user
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Tibo",
+  "email": "tibo@mail.com"
+}
+
+<> 2024-09-23T123326.201.json
+
+###
+
+POST http://localhost:8080/api/user
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Tibo",
+  "email": "tibo@mail.com"
+}
+
+<> 2024-09-23T123203.201.json
+
+###
+
+POST http://localhost:8080/api/user
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Tibo",
+  "email": "tibo@mail.com"
+}
+
+<> 2024-09-23T122703.500.json
+
+###
+
+POST http://localhost:8080/api/user
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Tibo",
+  "email": "tibo@mail.com"
+}
+
+<> 2024-09-23T122548.500.json
+
+###
+
